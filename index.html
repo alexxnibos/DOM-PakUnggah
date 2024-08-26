@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktek dom</title>
+    <style>
+       body {
+        font-family: arial, sans-serif;
+       }
+       .task-list {
+        margin-top: 20px;
+       }
+       .task {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+       }
+       .task.completed{
+        text-decoration: line-through;
+        color: gray;
+       }
+       .task button {
+        margin-left: 10px:
+       }
+    </style>
+</head>
+<body>
+    <h1>daftar tugas</h1>
+    <input type="text" id="taskinput" placeholder="masukan tugas">
+    <button id="addtaskbutton">tambah tugas</button>
+    <div class="task-list" id="tasklist"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
